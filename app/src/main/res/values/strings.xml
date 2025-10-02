@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pashkeeva_Lr6</string>
+    <string name="heading">Heading</string>
+    <string name="text">Введите текст</string>
+    <string name="italic">Italic</string>
+    <string name="clear">Clear</string>
+    <string name="bold">Bold</string>
+    <string name="itm1">Сделать полужирным</string>
+    <string name="itm2">Сделать курсивом</string>
+    <string name="itm3">Удалить выделенный текст</string>
+    <string name="note">Здесь будет отображаться заметка</string>
+    <string name="addNote">Создать новую заметку</string>
+</resources>

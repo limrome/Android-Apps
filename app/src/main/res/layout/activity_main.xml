@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="8dp">
+
+        <Spinner
+            android:id="@+id/fontSizeSpinner"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"/>
+
+        <ImageButton
+            android:id="@+id/boldButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/bold"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/bold"
+            android:scaleType="fitCenter"
+            android:padding="8dp"/>
+
+        <ImageButton
+            android:id="@+id/italicButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/cursive"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/italic"
+            android:scaleType="fitCenter"
+            android:padding="8dp"/>
+
+        <ImageButton
+            android:id="@+id/clearButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/krest"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/clear"
+            android:scaleType="fitCenter"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/headingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heading"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/noteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:text="@string/note" />
+    <Button
+        android:id="@+id/createNoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addNote"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/text"
+        android:gravity="top"
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:longClickable="true"
+        android:cursorVisible="true"
+        android:selectAllOnFocus="false"
+        android:inputType="text|textMultiLine"
+        android:padding="8dp"/>
+
+
+</LinearLayout>
